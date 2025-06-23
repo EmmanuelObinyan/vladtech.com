@@ -1,0 +1,1143 @@
+/* for small tablets*/
+@media screen and (max-width:900px) and (min-width:600px){
+:root{
+   --blue-greyish:rgb(38, 61, 75) ; 
+   --steel-blue :rgb(111, 129, 142);
+   --white:rgb(255, 255, 255) ;
+   --light-blue:rgb(171, 185, 195);
+   --faint-blue:rgb(204, 229, 221);
+   --faint-white:rgb(252, 255, 254);
+}
+
+    .general-nav{
+    width: 100%;
+    display: flex;
+    height:5rem;
+    justify-content: space-between;
+}
+nav img{
+    width: 25%;
+    /* object-fit: cover; */
+    height: 5rem;
+}
+nav ul {
+    display: none;
+}
+#register-button{
+    font-size: 0.8rem;
+    display: none;
+}
+.setting{
+    display: none;
+}
+.relative-media{
+    display: block;
+     width: 15%;
+     position: relative;
+      height: 4rem;
+}
+#media-icon-show{
+    display: block;
+    width: 50%;
+    color: var(--steel-blue);
+    margin-top: 7%;
+    height: 3rem;
+    font-size: 2.5rem;
+}
+#media-icon-hide{
+    display: block;
+    margin-left: 2%;
+    margin-top: 2%;
+    width:10%;
+    font-weight: 600;
+    color: var(--steel-blue);
+    height: auto;
+    font-size: 2.5rem;
+}
+.media-nav{
+    display: block;
+    right: 3%;
+    transform: translateX(105%);
+     transition: all ease 5s;
+    top: -14%;
+    background-color: var(--white);
+    width: 30rem;
+    height: 30rem;
+    transition: 0.9s all ease;
+    position: absolute;
+}
+.log-out-class{
+    height: 4rem;
+    position: absolute;
+    background-color: var(--light-blue);
+    border-radius: 5%;
+    font-weight: bold;
+    display: none;
+    transition: 0.9s all ease;
+    justify-content: center;
+    align-items: center;
+    top: 93%;
+    border-top: none;
+    color: beige;
+    width: 35%;
+    transition: 1s ease;
+    left: 30%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-family: inter;
+    text-align: center;
+}
+.log-out-class i{
+    display: block;
+    height: auto;
+    font-size: 1rem;
+}
+.log-out-class i:active{
+    transform: scale(0.9);
+}
+.log-out-class:active{
+    transform: scale(0.9);
+}
+#register-button-media{
+    height: 3.7rem;
+    display: block;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    margin-top: 5%;
+    margin-left: 2%;
+    background-color: var(--light-blue);
+    border: none;
+    transition: all ease 0.9s;
+    border-top: 0px solid var(--blue-greyish) ;
+    color: var(--white);
+    font-weight: 500;
+     border-bottom: 1px solid var(--blue-greyish);
+    border-radius: 0.3rem;
+     width: 97%;
+}
+#register-button-media:active{
+    transform: scale(0.9);
+}
+.media-nav ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 30rem;
+    height:30rem;
+}
+.media-nav ul li{
+    display: block;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 2.2rem;
+    margin-top: 2%;
+}
+nav li a:hover::after{
+    width: 0%;
+}
+nav li a:active{
+    opacity: 0.8;
+}
+.media-nav ul li{
+    display: block;
+    width: 40%;
+    margin-top: 3%;
+    margin-left: 52%;
+}
+.open-button-media{
+    margin-left: 52%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+    margin-top: 3%;
+    color:var(--steel-blue)
+}
+.setting-menu-media{
+    width: 70%;
+    position: absolute;
+    right: 4%;
+    transition: all ease 1s;
+    height: 12rem;
+    top: 73%;
+    display: none;
+}
+
+.close-menu-media i{
+    font-weight: 600;
+    color: var(--white);
+    font-size: 2rem;
+}
+.setting-menu-media button{
+    display: block;
+    font-family: inter;
+    background-color: var(--steel-blue);
+    color: var(--white);
+    font-size: 1.3rem;
+    border: 1px solid;;
+    font-weight: 600;
+    height: 3rem;
+    width: 100%;
+}
+/* header section for the website */
+header{
+    margin-top: 15%;
+    width: 100%;
+}
+.first-header{
+    width: 50%;
+    height:30rem;
+}
+.first-header h1{
+    font-size: 2.4rem;
+    line-height: 100%;
+    width: 80%;
+}
+.first-header p{
+    font-size: 1rem;
+    width: 75%;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-family: inter;
+}
+.second-header{
+    height: 30rem;
+    width: 60%;
+}
+.second-header img{
+    height: 30rem;
+    object-fit: cover;
+}
+.design{
+    width: 20%;
+    height: 10rem;
+}
+.courses-button{
+    width: 60%;
+    padding: 1.5%;
+    font-size: 1rem;
+}
+/* for the first section of website */
+.first-section{
+    display: flex;
+    width: 100%;
+    height: 12rem;
+    justify-content: center;
+    column-gap: 2%;
+    margin-bottom: 2%;
+}
+.help{
+    width: 35%;
+}
+.help p{
+    width: 80%;
+    font-size: 0.9rem;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    line-height: 130%;
+}
+.first-section h1{
+    font-size: 1.5rem;
+    line-height: 100%;
+}
+.first-section p{
+    font-family: inter;
+    font-weight: 300;
+    margin-left: 3%;
+}
+.response{
+    width: 35%;
+}
+.response p{
+    font-size: 0.9rem;
+    width: 95%;
+    margin-bottom: 1%;
+    line-height: 120%;
+}
+.vetted{
+    width: 30%;
+}
+.vetted  h1{
+    height: 2rem;
+}
+.vetted p{
+    width: 80%;
+    margin-bottom: 3%;
+    font-size: 0.9rem;
+    line-height: 120%;
+}
+main h3{
+    width: 40%;
+    margin-left: 35%;
+}
+main h1{
+    width: 70%;
+    margin-left: 18%;
+}
+main img{
+    width: 50%;
+    margin-left: 25%;
+}
+/* for the main section and first section */
+main div{
+    height: 5rem;
+    width: 100%;
+   margin: 0;;
+}
+.sql-database{
+    margin-left: 18%;
+}
+main div button{
+    width: 20%;
+    padding: 0.8%;
+    margin-top:0.9%;
+    margin-bottom: 0.7%;
+    transition: 0.7s ease all;
+}
+main div a{
+    text-decoration: none;
+     color: var(--white);
+     font-size: 0.9rem;
+     font-family: inter;
+     font-weight: 500;
+}
+/* for the courses row,first row and second row */
+#first-row{
+    width: 35rem;
+    display: flex;
+    flex-wrap: wrap;
+    place-self: center;
+    height: 50rem;
+}
+#second-row{
+    width: 35rem;
+    display: none;
+    flex-wrap: wrap;
+    place-self: center;
+    height: 50rem;
+}
+#first-row video,#second-row video{
+    width: 100%;
+}
+.col-courses{
+    height: 22rem;
+    flex: 1 1 50%;
+}
+#post-sql p,#data-structure p
+,#machine-learning p,#clean-data p,#virtual-assistant p{
+    margin-bottom: 0;
+}
+#clean-data p{
+    margin-bottom: 0;
+}
+#cyber-security p{
+    line-height: 120%;
+}
+/* third section */
+.details p{
+    width: 100%;
+}
+.list-item{
+    height: 13rem;
+}
+.list-item li{
+    width: 100%;
+}
+.about-us-text h2{
+    margin-top: 4%;
+}
+.arrow-course{
+    width: 55%;
+}
+.aside{
+    width: 50%;
+    height: 4rem;
+}
+.icon,.chance{
+    height: 4rem;
+}
+.icon i{
+    font-size: 2.3rem;
+}
+.chance{
+    width: 15rem;
+}
+.chance p{
+    font-size: 0.8rem;
+    margin: 0;
+}
+/* for the fourth section */
+#life-long{
+    height: 13rem;
+}
+#life-long h1{
+    width:70%;
+}
+.community{
+    height: 10rem;
+}
+.community p{
+    width:80% ;
+}
+.user-picture{
+    height:21rem;
+}
+.user-picture h3{
+    font-size: 1rem;
+}
+.items p{
+    font-size: 0.85rem;
+}
+.items h3{
+    font-size: 1rem;
+}
+.style{
+    font-size: 1rem;
+}
+/* instructor and about section */
+.instructor-div{
+    height: 61rem;
+    flex-direction: column-reverse;
+}
+.first-btn{
+    width: 30%;
+}
+#instructor-btn{
+    width: 30%;
+    bottom: 50%;
+    left: 35%;
+}
+/* general blog post divs */
+#general-blog{
+    height: 75rem;
+}
+.row-box{
+    height: 67rem;
+    width: 100%;
+    justify-content: center;
+}
+.blog-box{
+    width: 80%;
+}
+#general-blog h1{
+    width: 100%;
+    font-size: 1.8rem;
+}
+#general-blog h3{
+    font-size: 1.1rem;
+}
+.blog-btn{
+    width: 50%;
+}
+/* last section part ?finding right courses? */
+.text-courses h1{
+    font-size: 1.5rem;
+}
+.last-box{
+    height: 12rem;
+}
+.text-courses,.last-box div{
+    height: 12rem;
+}
+.text-courses p{
+    width: 85%;
+    line-height: 170%;
+    font-size: 0.9rem;
+}
+.last-btn{
+    width:95%;
+}
+footer{
+    height:50rem
+}
+#preloader-homepage img{
+    width: 30%;
+    height: 12rem;
+   animation: enlarge 0.8s ease infinite alternate;
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width:599px) and (min-width:300px){
+html{
+    width: 55rem;
+}
+    nav ul {
+    display: none;
+}
+/* preloader homepage */
+  #preloader-homepage{
+    z-index: 50;
+    background-color: var(--faint-white);
+    position:fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+  }
+  #preloader-homepage img{
+    width: 35%;
+    height: 12rem;
+   animation: enlarge 0.8s ease infinite alternate;
+  }
+ .general-nav{
+    height:13rem;
+    justify-content: space-between;
+}
+#register-button{
+    display: none;
+}
+nav img{
+    width: 35%;
+    height: 12.5rem;
+}
+.relative-media{
+     width: 20%;
+     display: block;
+      height: 8rem;
+}
+.setting{
+    display: none;
+}
+#media-icon-show{
+    display: block;
+    width: 70%;
+    color: var(--steel-blue);
+    margin-top: 7%;
+    height: 6rem;
+    font-size: 5rem;
+}
+#media-icon-hide{
+    display: block;
+    margin-left: 2%;
+    margin-top: 2%;
+    width:15%;
+    font-weight: 600;
+    color: var(--steel-blue);
+    height: auto;
+    font-size: 4rem;
+}
+.media-nav{
+    display: block;
+    right: 3%;
+    transform: translateX(105%);
+     transition: all ease 5s;
+    top: -10%;
+    background-color: var(--white);
+    width: 50rem;
+    height: 52rem;
+    transition: 0.9s all ease;
+    position: absolute;
+}
+.media-nav ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 50rem;
+    height:50rem;
+}
+.media-nav ul li{
+    display: block;
+    font-size: 3rem;
+    width: 40%;
+    height: 4rem;
+     margin-left: 50%;
+    margin-top: 4%;
+}
+.open-button-media{
+    margin-left: 50%;
+    font-size: 3rem;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+    margin-top: 3%;
+    color:var(--steel-blue)
+}
+#register-button-media{
+    height: 5rem;
+    display: block;
+    text-transform: capitalize;
+    font-size: 3rem;
+    margin-top: 5%;
+    margin-left: 2%;
+    background-color: var(--light-blue);
+    border: none;
+    transition: all ease 0.9s;
+    border-top: 0px solid var(--blue-greyish) ;
+    color: var(--white);
+    font-weight: 500;
+     border-bottom: 1px solid var(--blue-greyish);
+    border-radius: 0.3rem;
+    position: relative;
+     width: 97%;
+}
+#register-button-media:active{
+    transform: scale(0.9);
+}
+.log-out-class{
+    height: 7rem;
+    position: absolute;
+    background-color: var(--light-blue);
+    border-radius: 5%;
+    font-weight: bold;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 95%;
+    color: beige;
+    width: 35%;
+    transition: 0.9s ease all;
+    left: 30%;
+    font-size: 2.5rem;
+    border-top: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-family: inter;
+    text-align: center;
+}
+.log-out-class i{
+    display: block;
+    height: auto;
+    margin: 0;
+    font-size: 2.1rem;
+}
+.log-out-class i:active{
+    transform: scale(0.9);
+}
+.log-out-class:active{
+    transform: scale(0.9);
+}
+.setting-menu-media{
+    width: 60%;
+    position: absolute;
+    right: 4%;
+    transition: all ease 1s;
+    height: 20rem;
+    top: 75%;
+    display: none;
+}
+.setting-menu-media button{
+    display: block;
+    font-family: inter;
+    background-color: var(--steel-blue);
+    color: var(--white);
+    font-size: 2rem;
+    border: 1px solid;;
+    font-weight: 600;
+    height: 4rem;
+    width: 100%;
+}
+.close-menu-media i{
+    font-weight: 600;
+    color: var(--white);
+    font-size: 3rem;
+}
+header{
+    margin-top: 20%;
+    width: 57rem;
+    height:50rem;
+}
+.first-header{
+    width: 35rem;
+    height:50rem;
+}
+.first-header h1{
+    font-size: 4rem;
+    line-height:110%;
+    width: 80%;
+}
+.first-header p{
+    font-size: 1.8rem;
+    width: 80%;
+    font-weight: 300;
+    line-height: 120%;
+    font-weight: 300;
+    font-family: inter;
+}
+.second-header{
+    height: 50rem;
+    width: 60%;
+}
+.second-header img{
+    height: 50rem;
+    object-fit: cover;
+}
+.design{
+    width: 20%;
+    left: 45%;
+    height: 15rem;
+}
+.courses-button{
+    width: 60%;
+    padding: 1.9%;
+    font-size: 1.8rem;
+}
+.first-section{
+    display: flex;
+    margin-top: 3%;
+    width: 57rem;
+    flex-wrap: wrap;
+    height: 34rem;
+    justify-content: center;
+}
+.first-section h1{
+    font-size: 3rem;
+    line-height: 100%;
+}
+.first-section p{
+    font-family: inter;
+    font-weight: 300;
+    margin-left: 3%;
+}
+.help{
+    width: 45%;
+}
+
+.help p{
+    width: 80%;
+    font-size: 1.7rem;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    line-height: 120%;
+}
+.first-section h1{
+    font-size: 2.6rem;
+    line-height: 100%;
+}
+.first-section p{
+    font-family: inter;
+    font-weight: 300;
+    margin-left: 3%;
+}
+.response{
+    width: 45%;
+}
+.response p{
+    font-size: 1.7rem;
+    width: 90%;
+    margin-bottom: 1%;
+    line-height: 120%;
+}
+.vetted{
+    width: 50%;
+}
+.vetted  h1{
+    height: 2.2rem;
+}
+.vetted p{
+    width: 85%;
+    margin-bottom: 3%;
+    font-size: 1.7rem;
+    line-height: 120%;
+}
+.first-section a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 4%;
+}
+main{
+    width: 57rem;
+    height: auto;
+}
+main h3{
+    width: 20%;
+    font-size: 1.5rem;
+    margin-left: 40%;
+}
+main h1{
+    width: 60%;
+    font-size: 2.5rem;
+    margin-left: 25%;
+}
+main img{
+    width: 50%;
+    margin-left: 25%;
+}
+/* for the main section and first section */
+main div{
+    height: 15rem;
+    width: 100%;
+   margin-top:2%;
+}
+main div button{
+    width: 30%;
+    padding: 1%;
+    margin-top:0.9%;
+    margin-left: 4%;
+    margin-bottom: 0.7%;
+    transition: 0.7s ease all;
+}
+.artifical-intel,.cyber-security{
+    margin-left: 18%;
+}
+main div a{
+    text-decoration: none;
+     color: var(--white);
+     font-size: 2rem;
+     font-family: inter;
+     font-weight: 500;
+}
+/* courses to deal with */
+#first-row{
+    width: 55rem;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    place-self: center;
+    height: 85rem;
+}
+#second-row{
+    width: 55rem;
+    display: none;
+    flex-wrap: wrap;
+    place-self: center;
+    height: 85rem;
+}
+#first-row video,#second-row video{
+    width: 100%;
+}
+.col-courses{
+    height:40rem;
+    flex: 1 1 50%;
+}
+#data-structure{
+    margin-top: -1.4%;
+    height: 19rem;
+}
+#machine-regression{
+    height: 25rem;
+}
+#data-structure p,#machine-learning p,
+#machine-regression p,#data-analytics p,
+#post-sql p,#clean-data p,#virtual-assistant p,#cyber-security p{
+    font-size:2.3rem;
+}
+#data-analytics p,#post-sql p{
+    line-height: 110%;
+}
+#cyber-security p{
+    line-height: 120%;
+}
+.rating{
+    width: 50%;
+    margin-left: 0;
+    font-size:2rem;
+    background-color: transparent;
+    margin-bottom: 2%;
+}
+.rating i{
+    color: black;
+    font-size: 2rem;
+}
+.btns{
+  height: 3.5rem;
+  font-size: 1.7rem;
+}
+#see-more{
+   font-size: 1.8rem; 
+}
+#third-section{
+    height: 50rem;
+    flex-wrap: wrap;
+    margin-bottom:10%;
+}
+#third-section div:first-child {
+    width: 100%;
+    height: 29rem;
+}
+#third-section div img{
+    width: 100%;
+    height: 28rem;
+}
+.third-div-section{
+    height: 48rem;
+    margin-top: 5%;
+}
+.about-us-text h1{
+  font-size: 3.5rem;
+}
+.about-us-text h2{
+    font-size: 2rem;
+}
+.details p{
+    width: 100%;
+    height:10rem;
+    font-size:1.7rem;
+}
+.list-item{
+    height: 16rem;
+}
+.list-item li{
+    width: 100%;
+    font-size:1.8rem;
+}
+.list-item li i{
+    font-size:2rem;
+}
+.arrow-course{
+    width: 30%;
+  font-size: 1.7rem;
+}
+.arrow-course i{
+    font-size: 2rem;
+}
+.aside{
+    height: 7rem;
+}
+.icon,.chance{
+    height: 7rem;
+}
+.icon i{
+    font-size: 3.4rem;
+}
+.chance{
+    width: 25rem;
+}
+.chance h1{
+    font-size: 3rem;
+}
+.chance p{
+    font-size:1.3rem;
+    margin: 0;
+}
+/* .fourth-section{
+    height:60rem;
+} */
+#life-long{
+    height: 20rem;
+    margin-top: 45%;
+    margin-bottom:7%;
+}
+#life-long h1{
+    width: 70%;
+    font-size:3rem;
+}
+.community{
+    display: flex;
+    margin-left: 3%;
+    width: 95%;
+    height: auto;
+}
+.community div{
+    height: 10rem;
+}
+.community p{
+    width:90% ;
+    font-size:1.5rem;
+}
+.profile-heading{
+    font-family: inter;
+    height: 2rem;
+    font-size: 2.5rem;
+    width: 30%;
+}
+.profile-head-text{
+    font-family: inter;
+    margin-top: 2%;
+    height: 3rem;
+    font-size: 3.4rem;
+    width: 70%;
+}
+.profile-img{
+    height: 55rem;
+}
+.user-picture{
+    height: 20rem;
+    margin-top: 4%;
+     width:50%;
+}
+.user-picture img{
+    height: 14rem;
+    object-fit: cover;
+    border-radius: 12%;
+}
+.user-picture h3{
+    line-height: 100%;
+    font-size: 2rem;
+}
+.user-picture p{
+    font-size: 1.7rem;
+    width: 90%;
+    margin-top: 1%;
+}
+.items{
+  height: 30rem;
+}
+.item-box{
+height: 30rem;
+}
+.items p{
+    font-size: 1.9rem;
+    line-height: 120%;
+}
+.items h3{
+    font-size: 2rem;
+}
+.style{
+    font-size: 2.1rem;
+}
+.items i{
+    font-size: 2rem;
+}
+/* instructor and about section */
+.instructor-div{
+    height: 80rem;
+    margin-top: 0;
+    flex-direction: column-reverse;
+}
+.first-btn{
+    width: 38%;
+     height: 4rem;
+    font-size: 1.7rem;
+}
+.first-btn i{
+    font-size:3rem;
+    height: 4rem;
+    margin-top:-3%;
+}
+#instructor-btn{
+    width: 25%;
+    height: 5rem;
+    bottom: 50%;
+    left: 35%;
+}
+#instructor-btn p{
+    font-size: 1.5rem;
+}
+#instructor-btn h2{
+    font-size: 1.9rem;
+}
+#instructor-btn i{
+    font-size: 3rem;
+}
+.instructor-div-div{
+    height:65rem;
+    padding-bottom: 40%;
+}
+.instructor-div-div p{
+    width: 100%;
+    font-size: 1.6rem;
+    margin-bottom: 1%;
+    font-weight:250;
+    line-height: 130%;
+}
+.instructor-div-info h2{
+    font-size: 2.2rem;
+    margin-bottom: 1%;
+    font-family: inter;
+}
+.main-header{
+    font-size:1.8rem ;
+}
+.instructor-div-info h1{
+    margin-bottom: 1%;
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+/* for the second div */
+.img-div-info {
+    height:25rem;
+    margin-top: 6%;
+}
+.img-div-info img{
+    height:10rem;
+}
+#general-blog{
+    height: 78rem;
+}
+.row-box{
+    height: 67rem;
+    width: 55rem;
+    justify-content: center;
+}
+.blog-box{
+    width: 90%;
+}
+.blog-box p,.blog-box i{
+    font-size: 1.7rem;
+}
+.blog-box h3{
+    font-size:4.5rem;
+}
+.blog-box a{
+    font-size: 1rem;
+}
+#general-blog h1{
+    width: 75%;
+    margin: auto;
+    font-size: 2rem;
+}
+#general-blog h3{
+    font-size: 1.4rem;
+    margin-top:5%;
+}
+.blog-btn{
+    margin-top: 2%;
+    width: 50%;
+}
+.last-btn{
+    width:85%;
+    font-size: 1.4rem;
+}
+.text-courses p{
+    width: 85%;
+    line-height: 170%;
+    font-size: 1.3rem;
+}
+.text-courses h1{
+    font-size: 2rem;
+}
+footer{
+    height: 60rem;
+}
+footer a{
+    color:rgb(255, 255, 255);
+    font-weight: 300;
+    cursor: pointer;
+}
+.logo-div p{
+    font-size: 2rem;
+}
+footer h2{
+    color: var(--white);
+}
+.logo-div{
+    height: 15rem;
+}
+.explore-div h2{
+    font-size: 2.3rem;
+    margin-top:14%;
+}
+.explore-div ul{
+    height:15rem;
+}
+.explore-div a{
+    text-decoration: none;
+    font-size: 2rem;
+}
+#contact-div a{
+    display: block;
+    font-size: 2rem;
+}
+#contact-div h2{
+    font-size:2.3rem;
+}
+.logo-icons{
+    margin-bottom: 10%;
+}
+.logo-icons a i{
+    margin-right: 2%;
+    font-size: 2.2rem;
+}
+.logo-div img{
+  width: 50%;
+  height: 10rem;
+}
+}

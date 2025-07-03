@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstarp css/bootstrap.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+  <div class="container my-5">
+    <form action="" >
+      <div class="my-3">
+        <label class="form-label" for="email">Email:</label>
+        <input class="form-control" type="email" id="email" placeholder="Enter email" name="email">
+      </div>
+        <div class="container row">
+        <div class="col-md ">
+          <label class="form-label" for="pwd">Password:</label>
+          <input class="form-control form-control-lg" type="password" id="pwd" placeholder="Enter password" name="pswd">
+        </div>
+        <div class="col-md">
+          <label class="form-label" for="pwd">Confirm Password:</label>
+          <input class="form-control form-control-lg" type="password" id="pwd-2" placeholder="Enter password" name="pswd">
+        </div>
+      </div>
+   <div class="my-3">
+    <label for="">Message</label>
+    <textarea class="form-control" name="" id=""></textarea>
+   </div>
+
+     <div class="container row">
+    <div class="my-3   col-md">
+       <label class="form-label" for="">Select state government</label>
+       <select name="" id="" class="form-select form-select-lg">
+        <option value="">state 1</option>
+        <option value="">state 2</option>
+       </select>
+    </div>
+    <div class="my-3  col-md">
+      <label class="form-label" for="">Select local government</label>
+      <select name="" id="" class="form-select form-select-lg">
+       <option value="">state 1</option>
+       <option value="">state 2</option>
+      </select>
+   </div>
+  </div>
+        
+      <div class="my-3">
+        <label>
+          <input class="form-check-label" type="checkbox" name="remember"> Remember me
+        </label>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+  </div>
+    
+
+
+<div class="w-50  mx-auto my-5 bg-info p-5 rounded-3">
+  <h1 class="text-center text-dark">input groups</h1>
+    <form action="">
+       <div class="input-group mb-3">
+         <span class="input-group-text">@</span>
+         <input type="text" class="form-control " placeholder="username">
+       </div>
+
+       <div class="input-group mb-3">
+          <input type="email"  class="form-control" placeholder="email">
+           <span class="input-group-text">@example.com</span>
+       </div>
+       <button  class="btn btn-danger  fw-bold text-uppercase">login
+       <span id="spinner"  onclick="showSpinner()" class="'spinner spinner-border "></span>
+      </button>
+      </form>
+</div>
+    <script>
+        function showSpinner(){
+          const spinnerbutton = document.getElementbyid('spinner'); 
+           spinnerbutton.style.display= 'inline-block';
+        }
+    </script>
+        <style>
+          #spinner{
+            display:none;
+          }
+        </style>
+</body>
+</html>

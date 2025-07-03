@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./bootstarp css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid System</title>
+    <style>
+      .container_wrapper{
+        width:  100%;
+        height: 100vh;
+        background: rgb(230, 230, 230);
+      }
+      .left{
+        background: crimson;
+        color: white;
+      }
+      .right{
+        background: green;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="row">
+        <div class="col-md">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In odit
+            eligendi odio tempore! Doloribus quod molestiae tenetur cumque
+            incidunt doloremque.
+          </p>
+        </div>
+        <div class="col-md">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In odit
+            eligendi odio tempore! Doloribus quod molestiae tenetur cumque
+            incidunt doloremque.
+          </p>
+        </div>
+        <div class="col-md">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In odit
+            eligendi odio tempore! Doloribus quod molestiae tenetur cumque
+            incidunt doloremque.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-12 left">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+            vitae?
+          </p>
+        </div>
+        <div class="col-lg-6 col-md-4 col-sm-12 right">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, ex!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- challenge -->
+    <section class="container">
+      <div class="row">
+        <div class="col-lg col-md-2 col-sm-12 fluid" style="background-color: blue; color :white;">
+         <div class ="d-flex justify-content-around">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+      </div>
+        <div class="col-lg-6 col-md-15 col-sm-12 fluid right">
+            <div>
+            <h1 class="d-inline">the heading</h1>
+          <p class="d-inline ">paragrah text</p>
+          <span class="d-block">text content</span>
+          <span class="d-block ">new content</span>
+        </div>
+        </div>
+      </div>
+   
+    </section>
+
+  </body>
+</html>

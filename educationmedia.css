@@ -808,9 +808,9 @@ main div a{
 }
 #data-structure{
     margin-top: -1.4%;
-    height: 19rem;
+    height: 25rem;
 }
-#machine-regression,#data-analytics,#cyber-security,#virtual-assistant,#post-sql,#clean-data{
+#machine-regression,#data-analytics,#cyber-security,#virtual-assistant,#post-sql,#clean-data,#machine-learning{
     height: 25rem;
 }
 #data-structure p,#machine-learning p,

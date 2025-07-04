@@ -810,7 +810,7 @@ main div a{
     margin-top: -1.4%;
     height: 19rem;
 }
-#machine-regression{
+#machine-regression,#data-analytics,#cyber-security,#virtual-assistant,#post-sql,#clean-data{
     height: 25rem;
 }
 #data-structure p,#machine-learning p,
